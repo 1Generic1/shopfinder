@@ -1,0 +1,32 @@
+header 
+{
+    background-color: #007bff;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 70px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.horizontal-nav {
+    display: flex;
+    justify-content: space-between; /* Adjust spacing between items */
+    align-items: center; /* Center items vertically */
+    background: black;
+    height : 100%
+}
+
+.horizontal-nav ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.horizontal-nav li {
+    margin-right: 10px; /* Adjust spacing between items */
+}
+
+.horizontal-nav li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
